@@ -3,7 +3,7 @@ function feetToMile(feet){
 
 }
 
- var mile =feetToMile(5280);
+var mile =Math.round(feetToMile(5000)) ;
 
  console.log(mile); 
  // 1st task done
